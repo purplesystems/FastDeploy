@@ -18,10 +18,7 @@
 
 
 <h4 align="center">
-  <a href=#特性> 特性 </a> |
-  <a href=#SDK安装> 安装 </a> |
-  <a href=#SDK使用> 快速开始 </a> |
-  <a href=#社区交流> 社区交流 </a>
+  <a href=#About> About </a> |
 </h4>
 
 **⚡️FastDeploy** FastDeployis an easy-to-use inference deployment toolbox. It covers the mainstream high-quality pre-trained models in the industry and provides out-of-the-box development experience, including image classification, object detection, image segmentation, face detection, human body key point recognition, text recognition and other multi-tasking, to meet the rapid deployment needs of developers in multiple scenarios, multi-hardware and multi-platform.
