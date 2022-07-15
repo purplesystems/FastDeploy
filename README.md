@@ -24,46 +24,46 @@
   <a href=#社区交流> 社区交流 </a>
 </h4>
 
-**⚡️FastDeploy**是一款**简单易用**的推理部署工具箱。覆盖业界主流**优质预训练模型**并提供**开箱即用**的开发体验，包括图像分类、目标检测、图像分割、人脸检测、人体关键点识别、文字识别等多任务，满足开发者**多场景**，**多硬件**、**多平台**的快速部署需求。
+**⚡️FastDeploy** FastDeployis an easy-to-use inference deployment toolbox. It covers the mainstream high-quality pre-trained models in the industry and provides out-of-the-box development experience, including image classification, object detection, image segmentation, face detection, human body key point recognition, text recognition and other multi-tasking, to meet the rapid deployment needs of developers in multiple scenarios, multi-hardware and multi-platform.
 
 ## News 📢
 
-* 🔥 2022.6.30 晚20:30，⚡️FastDeploy天使用户邀测沟通会，与开发者共同讨论推理部署痛点问题，欢迎大家扫码报名入群获取会议链接。
+* 🔥 2022.6.30 晚20:30，⚡️FastDeploy angel users invite test communication meetings, discuss the pain points of reasoning deployment with developers, and welcome everyone to scan the code to sign up for the conference link.。
 <div align="center">
 <img src="https://user-images.githubusercontent.com/54695910/175854075-2c0f9997-ed18-4b17-9aaf-1b43266d3996.jpeg"  width = "150" height = "150" />
 </div>
 
-* 🔥 2022.6.27 [**⚡️FastDeploy v0.1.0**](https://github.com/PaddlePaddle/FastDeploy/releases/tag/release%2F0.1.0)测试版发布！🎉
-  * 💎 发布40个重点模型在8种重点软硬件环境的支持的SDK
-  * 😊 支持网页端、pip包两种下载使用方式
+* 🔥 2022.6.27 [**⚡️FastDeploy v0.1.0**](https://github.com/PaddlePaddle/FastDeploy/releases/tag/release%2F0.1.0)Beta release! 🎉
+  * 💎 Released 40 key models supported SDKs in 8 key hardware and software environments
+  * 😊 Supports two ways to download and use web pages and pip packages
 
 
-## 特性
+## About
 
 
-### 📦**开箱即用的推理部署工具链，支持云边端、多硬件、多平台部署**
-- 网页端点选下载、PIP 安装一行命令，快速下载多种类型SDK安装包
-- 云端（含服务器、数据中心）：
-    - 支持一行命令启动 Serving 服务（含网页图形化展示）
-    - 支持一行命令启动图像、本地视频流、本地摄像头、网络视频流预测
-    - 支持 Window、Linux 操作系统
-    - 支持 Python、C++ 编程语言
-- 边缘端：
-    - 支持 NVIDIA Jetson 等边缘设备，支持视频流预测服务
-- 端侧（含移动端）
-    - 支持 iOS、Android 移动端
-    - 支持 ARM CPU 端侧设备
-- 支持主流硬件
-    - 支持 Intel CPU 系列（含酷睿、至强等）
-    - 支持 ARM CPU 全系（含高通、MTK、RK等）
-    - 支持 NVIDIA GPU 全系（含 V100、T4、Jetson 等）
+### 📦**Out-of-the-box inference deployment toolchain, supporting cloud-edge, multi-hardware, and multi-platform deployments**
+- Click download and PIP install a single line command for the web terminal to quickly download various types of SDK installation packages
+- Cloud (including servers, data centers):
+    - Supports one-line command to start Serving service (including graphical display of web pages)
+    - Supports one-line command to start image, local video stream, local camera, network video stream prediction
+    - Supports Window, Linux operating systems
+    - Support for Python, C++ programming languages
+- Edge end:
+    - Support for edge devices such as NVIDIA Jetson and support for video stream prediction services
+- End side (including mobile end)
+    - Support iOS, Android mobile terminal
+    - Support for ARM CPU side-side devices
+    - Supports mainstream hardware
+    - Support for Intel CPU series (including Core, Xeon, etc.)
+    - Supports the entire range of ARM CPUs (including Qualcomm, MTK, RK, etc.)
+    - Supports the full range of NVIDIA GPUs (including V100, T4, Jetson, etc.)
 
-### 🤗**丰富的预训练模型，轻松下载SDK搞定推理部署**
+### 🤗**Rich pre-trained models, easy to download SDK to get the inference deployment**
 
 
 <font size=0.5>
 
-|<font size=2>   模型| <font size=2> 任务  |<font size=2>  大小(MB)  | <font size=2>端侧 | <font size=2>移动端 |<font size=2> 移动端 |<font size=2>边缘端 |<font size=2>服务器+云端 | <font size=2>服务器+云端 |<font size=2> 服务器+云端 |<font size=2> 服务器+云端 |
+|<font size=2>   model| <font size=2> Task  |<font size=2>  Size(MB)  | <font size=2>End | <font size=2>Mobile |<font size=2> Mobile |<font size=2>Edge |<font size=2>Server+Cloud | <font size=2>Server+Cloud |<font size=2> Server+Cloud |<font size=2> Server+Cloud |
 |---|---|---|---|---|---|---|---|---|---|---|
 |----- | ---- |----- |<font size=2>  Linux | <font size=2> Android |<font size=2>  iOS | <font size=2> Linux |<font size=2> Linux |<font size=2> Linux |<font size=2>  Windows  |<font size=2>  Windows  |
 |----- | ---- |--- | <font size=2> ARM CPU |<font size=2>  ARM CPU | <font size=2> ARM CPU |<font size=2> Jetson |<font size=2> X86 CPU |<font size=2>  GPU  |<font size=2> X86 CPU |<font size=2>  GPU  |
@@ -109,21 +109,21 @@
 </font>
 
 
-## SDK安装
+## SDK Installation
 
-### 方式1：网页版下载安装
+### Method 1: Download and install the web version
 
-- 可以登录[EasyEdge网页端](https://ai.baidu.com/easyedge/app/openSource)下载SDK
+- Log In to [EasyEdge网页端](https://ai.baidu.com/easyedge/app/openSource) to download SDK
 
-### 方式2：pip安装
+### Mode 2: pip installation
 
-开发者可以通过pip安装`fastdeploy-python`来获取最新的下载链接
+Developers can get the latest download links through pip installation `fastdeploy-python`
 
-- 环境依赖
+- Environment dependencies
 
     python >= 3.6  
 
-- 安装方式
+- Installation mode
 
 ```
 pip install fastdeploy-python --upgrade
@@ -131,11 +131,11 @@ pip install fastdeploy-python --upgrade
 
 - 使用方式
 
-    - 列出FastDeploy当前支持的所有模型
+    - Lists all models currently supported by FastDeploy
     ```
     fastdeploy --list_models
     ```
-    - 下载模型在具体平台和对应硬件上的部署SDK以及示例
+    - Download the model's deployment SDK on specific platforms and corresponding hardware, as well as examples
     ```
     fastdeploy --download_sdk \
                --model PP-PicoDet-s_320 \
@@ -144,48 +144,44 @@ pip install fastdeploy-python --upgrade
                --save_dir .
     ```
 
-    - 参数说明
-        - `list_models`: 列出FastDeploy当前最新支持的所有模型
-        - `download_sdk`: 下载模型在具体平台和对应硬件上的部署SDK以及示例
-        - `model`: 模型名，如"PP-PicoDet-s_320"，可通过`list_models`查看所有的可选项
-        - `platform`: 部署平台，支持 Windows/Linux/Android/iOS
-        - `soc`: 部署硬件，支持 x86/x86-NVIDIA-GPU/ARM/Jetson
-        - `save_dir`: SDK下载保存目录
+    - Parameter description
+        - `list_models`: Lists all models currently supported by FastDeploy
+        - `download_sdk`: Download the sdk and examples of the model's deployment on specific platforms and corresponding hardware
+        - `model`: Model name, such as "PP-PicoDet-s_320", can be viewed by viewing all the optionslist_models
+        - `platform`: Deployment platform with support for Windows/Linux/Android/iOS
+        - `soc`: Deploy hardware with x86/x86-NVIDIA-GPU/ARM/Jetson support
+        - `save_dir`: SDK download and save directory
 
-## SDK使用
-### 1 云+服务器部署
-   - Linux 系统(X86 CPU、NVIDIA GPU)
-      - [C++ Inference部署（含视频流）](./docs/Linux-CPP-SDK-Inference.md)
-      - [C++ 服务化部署](./docs/Linux-CPP-SDK-Serving.md)
-      - [Python Inference部署](./docs/Linux-Python-SDK-Inference.md)
-      - [Python 服务化部署](./docs/Linux-Python-SDK-Serving.md)
-   - Window系统(X86 CPU、NVIDIA GPU)
-      - [C++ Inference部署（含视频流）](./docs/Windows-CPP-SDK-Inference.md)
-      - [C++ 服务化部署](./docs/Windows-CPP-SDK-Serving.md)
-      - [Python Inference部署](./docs/Windows-Python-SDK-Inference.md)
-      - [Python 服务化部署](./docs/Windows-Python-SDK-Serving.md)
+## SDK Usage
+### 1 Cloud + server deployment
+- Linux systems (X86 CPUs, NVIDIA GPUs)
+    - C++ Inference deployment (with video streaming)
+    - C++ serviced deployment
+    - Python Inference deployment
+    - Python serviced deployment
+- Window System (X86 CPU, NVIDIA GPU)
+    - C++ Inference deployment (with video streaming)
+    - C++ serviced deployment
+    - Python Inference deployment
+    - Python serviced deployment
+2 Edge-side deployment
+- ArmLinux system (NVIDIA Jetson Nano/TX2/Xavier)
+    - C++ Inference deployment (with video streaming)
+    - C++ serviced deployment
+3-side deployment
+- ArmLinux System (ARM CPU)
+    - C++ Inference deployment (with video streaming)
+    - C++ serviced deployment
+    - Python Inference deployment
+    - Python serviced deployment
+4 Mobile deployment
+- iOS system deployment
+- Android system deployment
+5 Custom model deployment
+- Quickly implement personalized model replacement
 
-### 2 边缘侧部署
-   - ArmLinux 系统（NVIDIA Jetson Nano/TX2/Xavier）
-      - [C++ Inference部署（含视频流）](./docs/Jetson-Linux-CPP-SDK-Inference.md)
-      - [C++ 服务化部署](./docs/Jetson-Linux-CPP-SDK-Serving.md)
-
-### 3 端侧部署
-   - ArmLinux 系统(ARM CPU)  
-      - [C++ Inference部署（含视频流）](./docs/ARM-Linux-CPP-SDK-Inference.md)
-      - [C++ 服务化部署](./docs/ARM-Linux-CPP-SDK-Serving.md)
-      - [Python Inference部署](./docs/ARM-Linux-Python-SDK-Inference.md)
-      - [Python 服务化部署](./docs/ARM-Linux-Python-SDK-Serving.md)
-
-### 4 移动端部署
-   - [iOS 系统部署](./docs/iOS-SDK.md)
-   - [Android 系统部署](./docs/Android-SDK.md)  
-
-### 5 自定义模型部署
-   - [快速实现个性化模型替换](./docs/Replace-Model-With-Anther-One.md)
-
-## 社区交流
-   - **加入社区👬：** 微信扫描二维码后，填写问卷加入交流群，与开发者共同讨论推理部署痛点问题
+## Community communication
+   - Join the community👬： After Scanning the QR code on WeChat, fill in a questionnaire to join the communication group and discuss the pain points of reasoning deployment with developers
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/54695910/175854075-2c0f9997-ed18-4b17-9aaf-1b43266d3996.jpeg"  width = "200" height = "200" />
@@ -199,4 +195,4 @@ pip install fastdeploy-python --upgrade
 
 ## License
 
-FastDeploy遵循[Apache-2.0开源协议](./LICENSE)。
+FastDeploy follows the [Apache-2.0 Open Source License](./LICENSE)。
